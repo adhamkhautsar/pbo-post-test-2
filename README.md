@@ -1,24 +1,20 @@
 # pbo-post-test-2
 Project ini adalah project untuk tugas posttest pbo.
 
-
 Adham Khautsar Leswono
 
 (2209116021)
 
 SI A 2022
 
-
 # 1. SOURCECODE
   - Package utama
 
 package main;
 
-
 import computerstore.*;
 
 import java.util.Scanner;
-
 
 public class Main {
 
@@ -138,10 +134,9 @@ public class Main {
 
   - Package tambahan
 
-    1.
+  A.
 
 package computerstore;
-
 
 public abstract class Computer {
 
@@ -178,13 +173,11 @@ public abstract class Computer {
     public abstract void tampilkanSpesifikasi();
 }
 
-  2.
+  B.
   
 package computerstore;
 
-
 import java.util.ArrayList;
-
 
 public class ComputerStore {
 
@@ -230,10 +223,9 @@ public class ComputerStore {
     }
 }
 
-  3.
+  C.
 
 package computerstore;
-
 
 // Class final untuk komputer desktop
 
@@ -259,10 +251,9 @@ public final class Desktop extends Computer {
     }
 }
 
-  4.
+  D.
 
 package computerstore;
-
 
 public final class Laptop extends Computer {
 
@@ -286,6 +277,5 @@ public final class Laptop extends Computer {
         System.out.println();
     }
 }
-
 
 # 2. OUTPUT
