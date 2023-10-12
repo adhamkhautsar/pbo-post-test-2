@@ -218,4 +218,54 @@ SI A 2022
             }
         }
     c.
+
+            package computerstore;
+        
+        // Class final untuk komputer desktop
+        public final class Desktop extends Computer {
+            private final String jenisCasing;
+
+            public Desktop(String id, String nama, int harga, String jenisCasing) {
+                super(id, nama, harga);
+                this.jenisCasing = jenisCasing;
+            }
+        
+            public String getJenisCasing() {
+                return jenisCasing;
+            }
+        
+            @Override
+            public void tampilkanSpesifikasi() {
+                System.out.println("Desktop id " + getId());
+                System.out.println("Nama: " + getNama());
+                System.out.println("Harga: " + getHarga());
+                System.out.println("Jenis Casing: " + getJenisCasing());
+            }
+        }
     d.
+
+        package computerstore;
+        
+        public final class Laptop extends Computer {
+            private final String tipeBaterai;
+
+            public Laptop(String id, String nama, int harga, String tipeBaterai) {
+                super(id, nama, harga);
+                this.tipeBaterai = tipeBaterai;
+            }
+        
+            public String getTipeBaterai() {
+                return tipeBaterai;
+            }
+        
+            @Override
+            public void tampilkanSpesifikasi() {
+                System.out.println("Laptop id " + getId());
+                System.out.println("Nama: " + getNama());
+                System.out.println("Harga: " + getHarga());
+                System.out.println("Tipe Baterai: " + getTipeBaterai());
+                System.out.println();
+            }
+        }
+
+# 2. OUTPUT
