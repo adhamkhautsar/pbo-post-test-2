@@ -127,5 +127,5 @@ SI A 2022
                     break;
             }
         } while (pilihan != 5);
-    }
-    }
+            }
+        }
