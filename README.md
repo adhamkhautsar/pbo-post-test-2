@@ -269,3 +269,12 @@ SI A 2022
         }
 
 # 2. OUTPUT
+  - Tampilan awal
+
+        === Toko Komputer ===
+        1. Tambah Komputer
+        2. Tampilkan Daftar Komputer
+        3. Hapus Komputer
+        4. Update Komputer
+        5. Keluar
+        Pilihan:
