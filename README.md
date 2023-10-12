@@ -308,14 +308,40 @@ SI A 2022
         Nama: LENOVO
         Harga: 15000000
         Tipe Baterai: 5000 mAh
-    - Opsi hapus komputer
+  - Opsi hapus komputer
 
-          === Hapus Komputer ===
-          ID: A1
-          Komputer dengan ID A1 berhasil dihapus
-          
-          === Daftar Komputer ===
-          Laptop id A2
-          Nama: LENOVO
-          Harga: 15000000
-          Tipe Baterai: 5000 mAh
+        === Hapus Komputer ===
+        ID: A1
+        Komputer dengan ID A1 berhasil dihapus
+        
+        === Daftar Komputer ===
+        Laptop id A2
+        Nama: LENOVO
+        Harga: 15000000
+        Tipe Baterai: 5000 mAh
+  - Opsi update komputer
+
+        === Update Komputer ===
+        ID: A2
+        Nama: LENOVO
+        Harga: 16500000
+        Komputer dengan ID A2 berhasil diupdate
+        
+        === Daftar Komputer ===
+        Laptop id A2
+        Nama: LENOVO
+        Harga: 16500000
+        Tipe Baterai: 5000 mAh
+  - Opsi keluar
+
+        === Toko Komputer ===
+        1. Tambah Komputer
+        2. Tampilkan Daftar Komputer
+        3. Hapus Komputer
+        4. Update Komputer
+        5. Keluar
+        Pilihan: 5
+        Keluar
+        ------------------------------------------------------------------------
+        BUILD SUCCESS
+        ------------------------------------------------------------------------
