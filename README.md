@@ -297,3 +297,25 @@ SI A 2022
         Nama: LENOVO
         Harga: 15000000
         Tipe Baterai: 5000 mAh
+  - Opsi tampilkan daftar komputer
+
+        === Daftar Komputer ===
+        Desktop id A1
+        Nama: DELL
+        Harga: 10000000
+        Jenis Casing: DOPE
+        Laptop id A2
+        Nama: LENOVO
+        Harga: 15000000
+        Tipe Baterai: 5000 mAh
+    - Opsi hapus komputer
+
+          === Hapus Komputer ===
+          ID: A1
+          Komputer dengan ID A1 berhasil dihapus
+          
+          === Daftar Komputer ===
+          Laptop id A2
+          Nama: LENOVO
+          Harga: 15000000
+          Tipe Baterai: 5000 mAh
