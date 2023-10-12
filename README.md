@@ -134,7 +134,7 @@ public class Main {
 
   - Package tambahan
 
-    1.
+  a.
 
 package computerstore;
 
@@ -173,7 +173,7 @@ public abstract class Computer {
     public abstract void tampilkanSpesifikasi();
 }
 
-  B.
+  b.
   
 package computerstore;
 
@@ -223,7 +223,7 @@ public class ComputerStore {
     }
 }
 
-  C.
+  c.
 
 package computerstore;
 
@@ -251,7 +251,7 @@ public final class Desktop extends Computer {
     }
 }
 
-  D.
+  d.
 
 package computerstore;
 
