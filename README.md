@@ -278,3 +278,22 @@ SI A 2022
         4. Update Komputer
         5. Keluar
         Pilihan:
+  - Opsi tambah komputer
+
+        === Tambah Komputer ===
+        1. Desktop
+        2. Laptop
+        Pilihan: 1
+        ID: A1
+        Nama: DELL
+        Harga: 10000000
+        Jenis Casing: DOPE
+        
+        === Tambah Komputer ===
+        1. Desktop
+        2. Laptop
+        Pilihan: 2
+        ID: A2
+        Nama: LENOVO
+        Harga: 15000000
+        Tipe Baterai: 5000 mAh
